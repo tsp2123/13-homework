@@ -24,13 +24,13 @@ let colorScale = d3
   .range([
     '#8dd3c7',
     '#ffffb3',
-    '#bebada',
+    '#b0aad6',
     '#fb8072',
     '#80b1d3',
-    '#fdb462',
+    '#ffa743',
     '#b3de69',
     '#fccde5',
-    '#d9d9d9',
+    '#ccc9c9',
     '#bc80bd'
   ])
 
@@ -225,7 +225,7 @@ function ready(datapoints) {
       .attr('y', 0)
       .attr('width', rectWidth)
       .attr('height', height)
-      .attr('fill', '#C2DFFF')
+      .attr('fill', '#d0e1f4')
       .lower()
   })
 }
